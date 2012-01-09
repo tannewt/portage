@@ -7,7 +7,7 @@ inherit eutils versionator linux-mod
 
 DESCRIPTION="Ceton InfiniTV Linux Drivers"
 HOMEPAGE="http://cetoncorp.com/infinitv_support/linux-drivers/"
-SRC_URI="http://cetoncorp.com/firmware/ceton_infinitv_linux_driver_1_4.tar.gz"
+SRC_URI="http://cetoncorp.com/firmware/ceton_infinitv_linux_driver_1_6.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
