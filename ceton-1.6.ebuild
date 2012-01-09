@@ -30,8 +30,6 @@ src_prepare() {
 	sed -e 's:KERNEL_VERSION \:=:#KERNEL_VERSION \:=:g' -i Makefile
 	sed -e 's:KERNEL_DIR\t\:= :#KERNEL_DIR\t\:= :g' -i Makefile
 	sed -e 's:ifdef CROSS_COMPILE:ifdef USE_CROSS_COMPILE:g' -i Makefile
-
-	epatch "${FILESDIR}/dma_bit_mask_fix.patch"
 }
 
 src_install() {
